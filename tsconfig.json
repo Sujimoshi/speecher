@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "pretty": true,
+    "paths": {
+      "*": ["types/*"],
+      "@same/*": [ "./src/*" ]
+    }
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

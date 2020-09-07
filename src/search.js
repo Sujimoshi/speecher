@@ -1,0 +1,1 @@
+var FlexSearch = require('flexsearch')
